@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #181823;
+}
+:root,
+[data-theme] {
+  background-color: #181823 !important;
+  color: var(--fallback-bc, oklch(var(--bc) / 1));
+}
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+}

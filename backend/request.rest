@@ -1,0 +1,81 @@
+// Create a user
+POST  http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Celvin",
+    "email": "celvin@gmail.com",
+    "password": "123456",
+    "confPassword": "123456",
+    "role": "User"
+
+}
+
+###
+// Get All Users
+
+GET  http://localhost:3000/users
+
+###
+//Get single User
+GET  http://localhost:3000/users/373c3279-30e5-400f-9319-fe80042f9bbd
+
+###
+// Update a user
+PATCH   http://localhost:3000/users/373c3279-30e5-400f-9319-fe80042f9bbd
+Content-Type: application/json
+
+{
+    "name": "Celvin",
+    "email": "admin@gmail.com",
+    "password": "123456",
+    "confPassword": "123456",
+    "role": "admin"
+
+}
+
+###
+// Delete a user
+DELETE http://localhost:3000/users/373c3279-30e5-400f-9319-fe80042f9bbd
+
+###
+//Login a user
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "admin@gmail.com",
+    "password": "123456"
+}
+
+###
+//Login a user
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "Celvin@gmail.com",
+    "password": "123456"
+}
+
+###
+GET  http://localhost:3000/me
+
+###
+DELETE   http://localhost:3000/logout
+
+###
+//TEAM
+GET   http://localhost:3000/team
+
+###
+// Add Team
+POST  http://localhost:3000/team
+Content-Type: application/json
+
+{
+    "name": "Celvin",
+    "position": "safas",
+    "description": "asdasfasf."
+}
+
