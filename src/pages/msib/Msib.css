@@ -1,0 +1,74 @@
+.txtmsib-c {
+  background: linear-gradient(80deg, #19c6c2 10%, #8a3dff 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: normal;
+}
+.crdminews {
+  margin-top: -35pc;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.37);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16.8px);
+  -webkit-backdrop-filter: blur(16.8px);
+  border: none !important;
+}
+
+.msibtext {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+}
+
+.msibtxtcont {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: white;
+  font-size: 15px;
+}
+
+.msibcrdtxt {
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: white;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.cardtitlems {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.cardtitlehm {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  line-height: normal;
+}
+
+.artboard {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.artboard::-webkit-scrollbar {
+  width: 5px;
+}
+
+.artboard::-webkit-scrollbar-thumb {
+  border-radius: 33px;
+  border: 1px solid rgba(217, 217, 217, 0.45);
+  background: rgba(255, 255, 255, 0.37);
+}
+.whaoth1 {
+  margin-top: -64pc;
+  margin-left: -13pc;
+}

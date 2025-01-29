@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.txtabc {
+  background: linear-gradient(80deg, #19c6c2 10%, #8a3dff 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  line-height: normal;
+}
+.text-a span {
+  color: black;
+}
+.txtpla {
+  padding-left: -5px;
+}
+.sectt {
+  margin-left: 40px;
+}
+.hmodal{
+color: #FFF;
+font-family: "SF Pro";
+font-size: 32px;
+font-style: normal;
+font-weight: 590;
+line-height: 36px; /* 112.5% */
+}
+
+.tmodal{
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 116.667% */
+}
+
+.desc{
+color: #FFF;
+text-align: justify;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
